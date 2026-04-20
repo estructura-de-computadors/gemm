@@ -12,10 +12,10 @@ L'objectiu és passar d'una implementació **escalar** (execució instrucció a 
 
 La multiplicació de matrius es pot interpretar com una aplicació successiva de productes escalars entre un primer vector que representa les files d'una matriu $\mathbf{A}$ i un segon que representa les columnes d'una matriu $\mathbf{B}$:
 
-\[
+$$
 \mathbf{C} = \mathbf{A}\mathbf{B} \iff
 c_{ij} = \sum_{k=0}^{n-1} a_{ik} b_{kj} =a_{i0} b_{0j} + a_{i1} b_{1j} + \ldots + a_{i,n-1} b_{n-1,j}.
-\]
+$$
 
 La imatge següent compara el recorregut seqüencial d'un vector (esquerra) contra el recorregut vectorial (dreta) de dos elements alhora, cicle a cicle. Fixa't que el vectorial acaba en la **meitat** de temps:
 
