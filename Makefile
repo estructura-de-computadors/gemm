@@ -1,7 +1,6 @@
 # Copyright (C) 2026 Pedro J. Martinez-Ferrer
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-
 # Compilation flags
 CC = riscv64-linux-gnu-gcc
 CFLAGS = -static -O2 -Wall -std=c11

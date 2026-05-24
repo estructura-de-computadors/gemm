@@ -1,7 +1,6 @@
 // Copyright (C) 2026 Pedro J. Martinez-Ferrer
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-
 #include <stdlib.h>
 
 void gemm(const double *a, const double *b, double *c, const size_t n) {

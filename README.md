@@ -8,7 +8,7 @@ Aquesta activitat forma part d'un projecte d'innovació docent que busca potenci
 
 ## 🎯 Objectiu de la pràctica i resultats d'aprenentatge
 
-L'objectiu és passar d'una implementació **escalar** (execució instrucció a instrucció de manera seqüencial) a una implementació **vectorial** (execució paral·lela de diverses instruccions). Aprendreu a utilitzar el concepte *vector length agnostic* (VLA), que permet que el mateix codi s'executi en processadors amb diferents amplades de vector.
+L'objectiu és passar d'una implementació **escalar** (execució instrucció a instrucció de manera seqüencial) a una implementació **vectorial** (execució paral·lela de diverses instruccions). Aprendreu a utilitzar el concepte _vector length agnostic_ (VLA), que permet que el mateix codi s'executi en processadors amb diferents amplades de vector.
 
 La multiplicació de matrius es pot interpretar com una aplicació successiva de productes escalars entre un primer vector que representa les files d'una matriu $\mathbf{A}$ i un segon que representa les columnes d'una matriu $\mathbf{B}$:
 
@@ -23,8 +23,9 @@ La imatge següent compara el recorregut seqüencial d'un vector (esquerra) cont
 ![vec](vec.gif)
 
 El teu objectiu és:
+
 1. Analitzar el codi escalar de referència i resoldre dubtes relacionades.
-2. Identificar quin dels tres bucles ($i, j, k$) és el candidat més *senzill* per vectoritzar.
+2. Identificar quin dels tres bucles ($i, j, k$) és el candidat més _senzill_ per vectoritzar.
 3. Implementar una solució vectorial que aprofiti la naturalesa **VLA (vector length agnostic)** de RISC-V per obtenir un speedup significatiu.
 
 ## 📋 Treball previ
@@ -89,14 +90,14 @@ Per eliminar els binaris utilitza:
 make clean
 ```
 
-### Visual Code Studio
+### Visual Studio Code
 
 1. Crea un compte de [GitHub Education](https://github.com/education).
 2. Instal·la l'extensió `General Assembly Hightlighter` (Vicent Vaeza) de VS Code.
 3. Instal·la l'extensió `GitHub Copilot Chat` (GitHub) de VS Code i configura-la amb el teu compte GitHub Education.
 4. Instal·la l'extensió `Dev Containers` (Microsoft) de VS Code.
 5. Obre aquest repositori amb VS Code.
-6. L'extensió `Dev Containers` et demanarà *reobrir* el repositori dins d'un contenidor (Docker): **accepta!**
+6. L'extensió `Dev Containers` et demanarà _reobrir_ el repositori dins d'un contenidor (Docker): **accepta!**
 
 ### GitHub Copilot Chat
 
@@ -121,7 +122,7 @@ Es valorarà especialment:
 * La millora de rendiment assolida (speedup).
 * La qualitat i el pensament crític demostrat en les teves interaccions amb l'agent d'IA.
 * Les qualitat de les teves respostes a les preguntes generades per l'agent.
-* La transparència en identificar quines parts d'aquesta metodologia docent t'han *realment* ajudat a entendre un problema tan complex com és la vectorització de RISC-V en instruccions d'assemblador.
+* La transparència en identificar quines parts d'aquesta metodologia docent t'han _realment_ ajudat a entendre un problema tan complex com és la vectorització de RISC-V en instruccions d'assemblador.
 
 ## 📚 Material addicional
 

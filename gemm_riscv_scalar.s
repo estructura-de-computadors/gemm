@@ -1,7 +1,6 @@
 # Copyright (C) 2026 Pedro J. Martinez-Ferrer
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-
 .section .text
 .globl   gemm
 .type    gemm, @function

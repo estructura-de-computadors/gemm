@@ -1,7 +1,6 @@
 # Copyright (C) 2026 Pedro J. Martinez-Ferrer
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-
 .section .text
 .globl   gemm
 .type    gemm, @function
@@ -22,7 +21,7 @@ loop_j:
 # TODO: Pas 3 - Bucle intermig:
 # - Instruccions del bucle `j`.
 # - for (j = 0; j < n; ++j) {
-# - sum = 0.0;
+# - sum = 0.0
 
 loop_k:
 # TODO: Pas 4 - Bucle intern:
@@ -32,13 +31,13 @@ loop_k:
 # - Suposarem que n és multiple de la mida del vector.
 # - Pregunta: què passaria si n no fos múltiple de la mida del vector?
 # - Quantes posicions saltem en k?
-# - El resultat s'acumula en la variable `sum`, en un registre vectorial.
-# - sum += a[i * n + k] * b[k * n + j];
+# - El resultat s'acumula a la variable `sum`, en un registre vectorial.
+# - sum += a[i * n + k] * b[k * n + j]
 
 end_k:
 # TODO: Pas 5 - Acabar el bucle intermig:
 # - Aquí el valor `sum` es guarda en la posició corresponent de C.
-# - c[i * n + j] = sum;
+# - c[i * n + j] = sum
 # - Abans, però, s'ha de passar d'un registre vectorial a un d'escalar.
 # - Quantes posicions saltem en j?
 
