@@ -140,7 +140,13 @@ Per evitar les al·lucinacions i millorar la transparència de les respostes de 
 
 * [Especificació de la versió 1.0 de l'extensió RVV](https://github.com/riscvarchive/riscv-v-spec/releases/download/v1.0/riscv-v-spec-1.0.pdf)
 
-## ⚖️ Llicència
+## ⚖️ Ètica i ús responsable
+
+Aquest projecte inclou un agent d'IA per ajudar-te a aprendre. Fes-lo servir com una eina per explorar idees, entendre conceptes i depurar el teu treball, però recorda que alguna de les respostes generades poden ser incompletes o incorrectes, malgrat que la IA agèntica és capaç d'autocorregir-se. **És important que protegeixes la teva privacitat** compartint només la informació necessària per realitzar la tasca. No revelis mai el teu nom complet, adreça, número de telèfon, correu electrònic, identificador d'estudiant, contrasenyes, fitxers privats ni cap altra informació personal sensible. De la mateixa manera, no comparteixis informació personal sobre companys, instructors o qualsevol altra persona sense el seu consentiment explícit. Com a regla general, minimitza les dades que proporciones.
+
+Interacciona amb l'agent de manera respectuosa i responsable. No la facis servir per generar contingut abusiu o assetjador, demanar instruccions perjudicials o insegures, o donar suport a activitats no ètiques. Segueix les polítiques d'integritat acadèmica de la universitat: l'agent pot ajudar-te a aprendre, explicar conceptes o identificar errors, però no s'ha d'utilitzar per completar treballs avaluats o obtenir un avantatge injust, tret que el teu professor l'hagi permès explícitament. Quan tinguis dubtes, tracta la IA com un assistent d'aprenentatge en lloc d'una font autoritària o un substitut del teu propi treball.
+
+## 🔒 Llicència
 
 Aquest projecte està llicenciat sota la Llicència Pública General GNU versió 3.0 o posterior (GPL-3.0-or-later). Consulteu el fitxer [LICENSE](LICENSE) per a més detalls.
 
