@@ -1,3 +1,5 @@
+🌐 **Català** | [Español](README.es.md)
+
 # Repte de vectorització RISC-V: Multiplicació de matrius (gemm)
 
 ## 👋 Introducció
@@ -50,8 +52,8 @@ Primerament crea un compte de [GitHub (Education)](https://github.com/education)
 
 1. Instal·la [Docker](https://www.docker.com) i [VS Code](https://code.visualstudio.com/) al teu ordinador (hi ha certes incompatibilitats amb Podman i VSCodium, raó perquè es desaconsella instal·lar aquestes alternatives de codi obert).
 2. Obre VS Code, instal·la-hi l'extensió [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) i configura-la amb el teu compte de GitHub.
-. Instal·la l'extensió [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-3. Instal·la l'extensió [General Assembly Highlighter](https://marketplace.visualstudio.com/items?itemName=VicentBaeza.assembly-syntax).
+3. Instal·la l'extensió [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+4. Instal·la l'extensió [General Assembly Highlighter](https://marketplace.visualstudio.com/items?itemName=VicentBaeza.assembly-syntax).
 
 ## 📂 Estructura del repositori
 
@@ -60,7 +62,7 @@ El repositori conté els següents fitxers clau:
 * **`Makefile`**: Eina per automatitzar la compilació, l'execució i el testeig del codi.
 * **`matrix_mult.c`**: El programa principal (`main`) que s'encarrega d'inicialitzar les matrius, cridar les funcions de multiplicació de matrius i mesurar-ne el temps d'execució.
 * **`gemm.c`**: Implementació de referència en llenguatge C de l'algoritme de la multiplicació de matrius.
-* **`gemm-riscv-scalar.s`**: Codi font en assemblador RISC-V utilitzant instruccions escalars. Es tracta d'una segona solució de referència escrita en assemblador.
+* **`gemm_riscv_scalar.s`**: Codi font en assemblador RISC-V utilitzant instruccions escalars. Es tracta d'una segona solució de referència escrita en assemblador.
 * **`gemm_riscv_vector.s`**: Fitxer on has de desenvolupar la solució vectorial utilitzant l'extensió RVV. Conté una estructura bàsica amb TODOs per guiar-te.
 * **`AGENTS.md`**: Fitxer de configuració de la IA agèntica. Aquí es defineix el comportament de l'agent fiber-teacher.
 * **`EVALUATION.md`**: Informe final que has d'omplir i lliurar al final de la pràctica, incloent-hi l'anàlisi de rendiment i la reflexió sobre l'ús que has fet de la IA.
@@ -71,7 +73,7 @@ El repositori conté els següents fitxers clau:
 
 1. Descarrega el repositori al teu ordinador (`git clone https://github.com/estructura-de-computadors/gemm.git`).
 2. Obre el repositori amb VS Code (`File -> Open folder...`) i selecciona l'opció: `Yes, I trust the authors`.
-3. Fixa't que l'extensió Dev Containers et demanarà *reobrir* el repositori dins d'un contenidor (docker): accepta la invitació.  Si no sortís el missatge, tanca VS Studio i torna'l a obrir.
+3. Fixa't que l'extensió Dev Containers et demanarà *reobrir* el repositori dins d'un contenidor (docker): accepta la invitació.  Si no sortís el missatge, tanca VS Code i torna'l a obrir.
 4. Espera diversos minuts a la descàrrega de la imatge de Docker.  La primera vegada pot trigar diversos minuts, en funció de la connectivitat a Internet.
 
 ### Copilot Chat
